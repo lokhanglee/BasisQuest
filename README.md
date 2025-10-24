@@ -1,6 +1,7 @@
 ﻿# BasisQuest
 
-**BasisQuest** is an intelligent document-retrieval chatbot designed to explore and query large collections of SAP Basis or enterprise automation documents.  
+**BasisQuest** is an intelligent document-retrieval chatbot designed to explore and query large collections of SAP Basis or enterprise automation documents.
+
 It demonstrates a practical **Retrieval-Augmented Generation (RAG)** architecture combining OpenAI embeddings, FAISS vector search, and a Streamlit interface.
 
 ---
@@ -75,14 +76,14 @@ Create a file named .env in the project folder:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-## 5: Run the Streamlit app
+## 5. Run the Streamlit app
 ```
 streamlit run app.py
 ```
 
 Then open your browser and visit:
 ```
-[https://basisquest.streamlit.app/]
+https://basisquest.streamlit.app[https://basisquest.streamlit.app]
 ```
 
 You can ask questions such as:
@@ -128,6 +129,6 @@ All documents and API credentials must comply with their respective licenses and
 
 ## 10. Author
 
-**Louis Lee**
+**Louis Lee**\
 LinkedIn: [https://www.linkedin.com/in/lokhanglee/]\
 GitHub: [https://github.com/lokhanglee]

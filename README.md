@@ -83,7 +83,7 @@ streamlit run app.py
 
 Then open your browser and visit:
 ```
-https://basisquest.streamlit.app[https://basisquest.streamlit.app]
+[https://basisquest.streamlit.app](https://basisquest.streamlit.app)
 ```
 
 You can ask questions such as:
@@ -130,5 +130,5 @@ All documents and API credentials must comply with their respective licenses and
 ## 10. Author
 
 **Louis Lee**\
-LinkedIn: [https://www.linkedin.com/in/lokhanglee/]\
-GitHub: [https://github.com/lokhanglee]
+[LinkedIn](https://www.linkedin.com/in/lokhanglee)\
+[GitHub](https://github.com/lokhanglee)

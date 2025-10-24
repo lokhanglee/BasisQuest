@@ -1,0 +1,35 @@
+# --- Environment and build folders ---
+.env
+env/
+__pycache__/
+.vs/
+*.vsidx
+
+# --- IDE and config files ---
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+*.bak
+
+# --- Docker and deployment ---
+Dockerfile
+.dockerignore
+
+# --- Docs and temp folders ---
+*.log
+*.tmp
+
+# --- Irrelevant scripts ---
+app_WikiChatbot.py
+WikiChatbot.py
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Visual Studio project files ---
+*.sln
+*.pyproj

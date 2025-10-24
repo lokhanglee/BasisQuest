@@ -23,6 +23,7 @@ This project is intended for demonstration and learning, showing how RAG systems
 
 ## 2. Architecture
 
+```
 Documents → Text Splitter → Embeddings (OpenAI) → FAISS Index
 ↑ ↓
 Chat Query ← Context Retrieval ← Reranking (Cosine)
@@ -30,12 +31,13 @@ Chat Query ← Context Retrieval ← Reranking (Cosine)
 OpenAI Chat Completion
 ↓
 Streamlit Front-End
-
+```
 
 ---
 
 ## 3. Project Structure
 
+```
 BasisQuest/
 │
 ├─ BasisQuest.py # Core logic: document loading, embeddings, RAG functions
@@ -44,7 +46,7 @@ BasisQuest/
 ├─ requirements.txt # Python dependencies
 ├─ .gitignore # Files excluded from version control
 └─ README.md # Project overview
-
+```
 
 ---
 
@@ -64,8 +66,7 @@ env\Scripts\activate     # On Windows
 
 ### Step 3: Install dependencies
 ```
-python -m venv env
-env\Scripts\activate     # On Windows
+pip install -r requirements.txt
 ```
 
 ### Step 4: Set your OpenAI API key
@@ -74,48 +75,58 @@ Create a file named .env in the project folder:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-### Step 5: Run the Streamlit app
+## 5: Run the Streamlit app
 ```
 streamlit run app.py
 ```
 
-### Step 6: Then open your browser and visit:
+Then open your browser and visit:
 ```
-https://basisquest.streamlit.app/
+[https://basisquest.streamlit.app/]
 ```
 
 You can ask questions such as:
-What is SAP HANA Cloud?
-Explain the role of the Basis layer in SAP architecture.
-Compare SAP transport management and version control.
+* What is SAP HANA Cloud?
+* Explain the role of the Basis layer in SAP architecture.
+* Compare SAP transport management and version control.
 
-6. Key Features
-Feature	Description
-Multi-format ingestion	Reads .pdf, .docx, .txt, .html automatically
-Chunking with overlap	Splits text into overlapping segments for better context
-Vector search (FAISS)	Enables efficient high-dimensional similarity search
-Cosine normalization	Improves ranking accuracy of relevant results
-Conversation memory	Supports short-term follow-up dialogue
-Progress tracking	Displays document loading and embedding progress in Streamlit
+---
 
-7. Technology Stack
+## 6. Key Features
+|Feature|Description|
+|---|---|
+|Multi-format ingestion|Reads `.pdf`, `.docx`, `.txt`, `.html` automatically|
+|Chunking with overlap|Splits text into overlapping segments for better context|
+|Vector search (FAISS)|Enables efficient high-dimensional similarity search|
+|Cosine normalization|Improves ranking accuracy of relevant results|
+|Conversation memory|Supports short-term follow-up dialogue|
+|Progress tracking|Displays document loading and embedding progress in Streamlit|
 
-Python 3.11
+---
 
-OpenAI API
+## 7. Technology Stack
 
-FAISS
+* Python 3.11
+* OpenAI API
+* FAISS
+* Streamlit
+* tqdm
+* dotenv
+* BeautifulSoup4
+* PyPDF2
+* python-docx
+* NumPy
 
-Streamlit
+---
 
-tqdm
+## 8. License
 
-dotenv
+This project is distributed for educational and demonstration purposes only.\
+All documents and API credentials must comply with their respective licenses and terms of use
 
-BeautifulSoup4
+---
 
-PyPDF2
+## 10. Author
 
-python-docx
-
-NumPy
+**Louis Lee**
+LinkedIn[https://www.linkedin.com/in/lokhanglee/] | GitHub[https://github.com/lokhanglee]

@@ -83,7 +83,7 @@ streamlit run app.py
 
 Then open your browser and visit:
 ```
-[https://basisquest.streamlit.app](https://basisquest.streamlit.app)
+(https://basisquest.streamlit.app)
 ```
 
 You can ask questions such as:

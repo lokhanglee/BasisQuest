@@ -129,4 +129,5 @@ All documents and API credentials must comply with their respective licenses and
 ## 10. Author
 
 **Louis Lee**
-LinkedIn[https://www.linkedin.com/in/lokhanglee/] | GitHub[https://github.com/lokhanglee]
+LinkedIn: [https://www.linkedin.com/in/lokhanglee/]\
+GitHub: [https://github.com/lokhanglee]

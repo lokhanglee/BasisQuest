@@ -22,7 +22,7 @@ This project is intended for demonstration and learning, showing how RAG systems
 ---
 
 ## 2. Architecture
-
+```
 Documents → Text Splitter → Embeddings (OpenAI) → FAISS Index
 ↑ ↓
 Chat Query ← Context Retrieval ← Reranking (Cosine)
@@ -30,7 +30,7 @@ Chat Query ← Context Retrieval ← Reranking (Cosine)
 OpenAI Chat Completion
 ↓
 Streamlit Front-End
-
+```
 
 ---
 
